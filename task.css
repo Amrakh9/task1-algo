@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background-image: url('jake-houglum-VocXRDpZzYU-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Pacifico', cursive;
+    height: 100%;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+ul {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+}
+
+ul>li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+ul>li a::marker {
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 250px;
+    color: aqua;
+}
